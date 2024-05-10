@@ -2,12 +2,12 @@
 
 from flask import Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route("/")
 
 def hello():
-    return "<h2>Hey there! - Integration Activity Flask Deployment Lab<h2><hr/>"\
+    return "<h2>Hello world - Integration Activity Flask Deployment Lab: try 2 <h2><hr/>"\
 
 
-app.run(host="0.0.0.0", port=5000)
+app.run(host="0.0.0.0", port=5000)
